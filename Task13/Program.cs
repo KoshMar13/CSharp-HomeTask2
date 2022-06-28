@@ -11,4 +11,11 @@ if (number / 10 < 10)
 }
 else
 {
-    
+    int result = number;
+    while (number / 10 > 100)
+    {
+        number /= 10;
+        result = number;
+    }
+    Console.WriteLine(result % 10);
+}
