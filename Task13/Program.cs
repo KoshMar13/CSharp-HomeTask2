@@ -4,7 +4,7 @@
 // 32679 -> 6
 
 Console.Write("Insert number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 if (number / 10 < 10)
 {
     Console.WriteLine("Третьей  цифры нет");
